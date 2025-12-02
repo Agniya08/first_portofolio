@@ -37,6 +37,7 @@ body {
   align-items: center;
   padding: 30px 0;
   width: 100%;
+  color: #045c72;
 }
 
 .logo {
@@ -54,9 +55,9 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #045c72;
   font-weight: 300;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .header-contact {
@@ -98,7 +99,7 @@ nav a {
 
 .bubble {
   background-color: #045c72;
-  color: #fffdfd;
+  color: #beebe4;
   padding: 15px 25px;
   border-radius: 30px 30px 30px 5px;
   font-size: 1.5rem;
@@ -111,7 +112,7 @@ nav a {
   color: #333;
   padding: 20px 30px;
   border-radius: 40px;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 700;
   margin-bottom: 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -119,7 +120,7 @@ nav a {
 
 .cta-button {
   background-color: #045c72; /* Warna ungu tombol */
-  color: #fff;
+  color: #bee;
   padding: 15px 35px;
   border-radius: 25px;
   text-decoration: none;
@@ -257,7 +258,6 @@ body {
 }
 
 .header {
-  background-color: #28a745;
   color: white;
   padding: 30px;
 }
@@ -266,6 +266,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #beebe4;
 }
 
 .header h1 {
@@ -303,11 +304,10 @@ body {
 
   .header-content {
     flex-direction: column;
-    text-align: center;
   }
 
   .header img {
-    margin-top: 15px;
+    margin-top: 20px;
   }
 }
 
@@ -347,7 +347,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 0;
-  color: #045C72;
+  color: #045c72;
 }
 
 .info-card table {
@@ -365,7 +365,7 @@ body {
 }
 
 .info-card td:first-child {
-  color: #045C72;
+  color: #045c72;
   font-weight: 500;
   width: 30%;
 }
@@ -430,7 +430,7 @@ body {
 h1 {
   font-size: 2.5em;
   font-weight: bold;
-  color: #045C72;
+  color: #045c72;
   margin-bottom: 50px;
 }
 
@@ -471,7 +471,7 @@ body {
 
 /* --- Header Banner --- */
 .header-banner {
-  background-color: #43f3f3; /* Warna hijau terang */
+  background-color: #beebe4; /* Warna hijau terang */
   padding: 30px;
   border-radius: 10px;
   width: 380px; /* Lebar sesuai gambar */
@@ -495,7 +495,7 @@ body {
 }
 
 .header-content h1 {
-  color: white;
+  color: #045c72;
   font-size: 2.5em;
   margin: 0;
 }
@@ -511,7 +511,7 @@ body {
 
 /* Gaya Bagian Umum */
 h3 {
-  color: #333;
+  color: #045c72;
   font-size: 0.9em;
   font-weight: bold;
   margin-top: 0;
@@ -530,14 +530,14 @@ h3 {
 .middle-column p {
   font-size: 0.95em;
   line-height: 1.5;
-  color: #000;
+  color: #045c72;
 }
 
 /* --- Kolom Kiri: Services & Social --- */
 .service-tags .tag {
   display: inline-block;
-  background-color: #eee;
-  color: #555;
+  background-color: #4c4f6e;
+  color: #f0dede;
   padding: 5px 12px;
   margin-right: 5px;
   margin-bottom: 8px;
@@ -548,29 +548,31 @@ h3 {
 }
 
 .service-tags .tag:hover {
-  background-color: #ddd;
+  background-color: #4c4f6e;
+  color: #f0dede;
 }
 
 .social-icons a {
-  color: #333;
-  font-size: 1.2em;
+  color: #f0dede;
+  background-color: #4c4f6e;
+  font-size: 1.5em;
   margin-right: 15px;
   transition: color 0.2s;
 }
 
 .social-icons a:hover {
-  color: #2ecc71;
+  color: #045c72;
 }
 
 .start-a-project p {
-  color: #555;
+  color: #045c72;
   font-style: italic;
   font-size: 0.9em;
 }
 
 /* --- Kolom Kanan: Formulir Kontak --- */
 .contact-form {
-  background-color: white;
+  background-color: #4c4f6e;
   padding: 20px;
 }
 
@@ -583,7 +585,7 @@ h3 {
 .input-field {
   flex: 1;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid white;
   border-radius: 5px;
   font-size: 0.9em;
 }
@@ -612,13 +614,13 @@ h3 {
 
 .service-option i {
   margin-right: 8px;
-  color: #2ecc71; /* Warna ikon */
+  color: #666262; /* Warna ikon */
 }
 
 .service-option.active {
-  background-color: #f0fff5; /* Latar belakang hijau sangat muda */
-  border-color: #2ecc71;
-  color: #2ecc71;
+  background-color: #ffffff; /* Latar belakang hijau sangat muda */
+  border-color: #f0dede;
+  color: #454242;
   font-weight: bold;
 }
 
@@ -635,8 +637,8 @@ h3 {
 }
 
 .send-button {
-  background-color: #2ecc77; /* Warna hijau untuk tombol */
-  color: white;
+  background-color: #beebe4; /* Warna hijau untuk tombol */
+  color: rgb(29, 28, 28);
   border: none;
   padding: 10px 25px;
   border-radius: 20px;
@@ -648,7 +650,7 @@ h3 {
 }
 
 .send-button:hover {
-  background-color: #27ae60;
+  background-color: #045c72;
 }
 
 /* --- Responsif (Opsional) --- */
@@ -728,13 +730,13 @@ main {
 /* Styling Nama Perusahaan (Bold) */
 .company-name {
   font-weight: bold;
-  color: #343a40; /* Sedikit lebih gelap agar menonjol (opsional) */
+  color: #2a2828; /* Sedikit lebih gelap agar menonjol (opsional) */
 }
 
 /* Styling Nama Desainer (Bold/Aksen) */
 .designer-name {
   font-weight: bold;
-  color: #343a40; /* Sedikit lebih gelap agar menonjol */
+  color: #242323; /* Sedikit lebih gelap agar menonjol */
 }
 
 /* Garis Pemisah Vertikal (Opsional: Mereplikasi visual pemisah) */
@@ -759,6 +761,7 @@ main {
   .copyright-text {
     padding-right: 0;
     margin-bottom: 10px; /* Tambahkan jarak antar baris */
+    color: #f0dede;
   }
 
   .design-text::before {
